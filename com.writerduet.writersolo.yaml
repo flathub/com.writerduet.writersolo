@@ -7,11 +7,15 @@ base-version: '23.08'
 command: runwritersolo
 finish-args:
   - --share=ipc
-  - --share=network
-  - --socket=x11
+  # - --share=network
+  # I am not truly sure if we NEED networking. I guess I'll keep it in, but comment it out.
+  - --socket=wayland
+  - --socket=fallback-x11
   - --device=dri
   - --env=XCURSOR_PATH=/run/host/user-share/icons:/run/host/share/icons
-  - --filesystem=home
+  # I do not like flathub listing the permissions has unsafe because arbitrary permissions. I guess I will only allow documents and downloads for now
+  - --filesystem=xdg-download
+  - --filesystem=xdg-documents
   - --talk-name=org.freedesktop.FileManager1
   - --talk-name=org.freedesktop.secrets
   - --talk-name=org.kde.StatusNotifierWatcher
