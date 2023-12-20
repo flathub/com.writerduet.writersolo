@@ -9,8 +9,8 @@ finish-args:
   - --share=ipc
   # - --share=network
   # I am not truly sure if we NEED networking. I guess I'll keep it in, but comment it out.
-  - --socket=wayland
-  - --socket=fallback-x11
+  #It hates my wayland GNOME session, sticking to X11 only for right now. Submit a PR if you can find a fix.
+  - --socket=x11
   - --device=dri
   - --env=XCURSOR_PATH=/run/host/user-share/icons:/run/host/share/icons
   # I do not like flathub listing the permissions has unsafe because arbitrary permissions. I guess I will only allow documents and downloads for now
