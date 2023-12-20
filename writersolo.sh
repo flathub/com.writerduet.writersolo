@@ -7,5 +7,6 @@ if [ -z "$DISPLAY" ] && [ -n "$WAYLAND_DISPLAY" ]; then
   zypak-wrapper '/app/extra/opt/WriterSolo/writersolo-desktop' --enable-features=UseOzonePlatform --ozone-platform=wayland "$@"
 else
   zypak-wrapper '/app/extra/opt/WriterSolo/writersolo-desktop' "$@"
+fi
 
 #End Of Script
