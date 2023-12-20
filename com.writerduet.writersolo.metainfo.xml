@@ -9,6 +9,8 @@
     <project_license>LicenseRef-proprietary</project_license>
     <url type="homepage">https://writersolo.com</url>
     <description>
+	<p>NOTICE: THIS WRAPPER IS NOT AFFILIATED WITH UPSTREAM! </p>
+	<p> If you have issues with the flatpak environment, post an issue on the github repo. Otherwise, please redirect all questions and comments to writerduet themselves</p>
 	<p>WriterSolo is a free version of WriterDuet that is not synced to any servers.</p>
 	<p>You get all the same features of WriterDuet, just without collaboration or any connection to an external server</p>
 	<p>You can seamlessly convert from fdx, to fountain, or even PDF.</p>
