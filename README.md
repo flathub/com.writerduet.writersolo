@@ -20,7 +20,7 @@ cd com.writerduet.writersolo
 flatpak-builder --force-clean --user --install --install-deps-from=flathub com.writerduet.writersolo.yaml  
 ```
 
-If you make any changes and want to see it pushed here, test is please before doing so.
+If you make any changes and want to see it pushed here, test it please before doing so.
 
 ---
 
