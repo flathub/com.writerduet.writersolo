@@ -1,4 +1,7 @@
 # WriterSolo
+
+About Wayland: I am right now having issues with getting it to cooperate with wayland right now. For sake of working, I'm going to remove the stuff about wayland and just keep it x11 only for the time being. Submit a PR if you can find a fix.
+
 WriterSolo is a free offline application entirely dedicated to screenwriting. It is the free version of writerduet and can easily convert between fdx (final draft), PDF, and even fountain files to make it incredibly easy to write a screenplay regardless of which program you wrote the script in at first. Nothing is synced to external servers.
 
 ---
