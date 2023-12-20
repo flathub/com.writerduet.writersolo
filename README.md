@@ -17,7 +17,7 @@ Sometimes mistakes happen and a re-build is necessary. There is, however, a few 
 ```
 git clone https://github.com/flathub/com.writerduet.writersolo.git  
 cd com.writerduet.writersolo  
-flatpak-builder --force-clean --user --install --install-deps-from=flathub com.writerduet.writersolo.yaml  
+flatpak-builder --force-clean --user --install --install-deps-from=flathub build com.writerduet.writersolo.yaml  
 ```
 
 If you make any changes and want to see it pushed here, test it please before doing so.
