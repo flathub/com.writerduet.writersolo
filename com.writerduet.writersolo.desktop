@@ -9,5 +9,5 @@ Terminal=false
 StartupNotify=false
 Exec=/app/bin/runwritersolo
 Icon=com.writerduet.writersolo
-Categories=Editor;
+Categories=Utility;
 
