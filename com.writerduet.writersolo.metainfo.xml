@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop">
+<component type="desktop-application">
     <id>com.writerduet.writersolo</id>
     <launchable type="desktop-id">com.writerduet.writersolo.desktop</launchable>
     <name>WriterSolo</name>
-    <developer_name>WriterDuet</developer_name>
-    <summary>An extensive desktop app for fully writing a screenplay or convert between various screenplay formats such as final draft fdx or fountain</summary>
+    <developer id="com.writerduet">
+        <name>WriterDuet</name>
+    </developer>
+    <summary>Write a screenplay or convert between various screenplay formats</summary>
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>LicenseRef-proprietary</project_license>
     <url type="homepage">https://writersolo.com</url>
     <description>
-	<p>NOTICE: THIS WRAPPER IS NOT AFFILIATED WITH UPSTREAM! </p>
-	<p>This is the free version of WriterDuet without any collaboration features to it. Excellent for working with fdx (final draft), 
-	fountain, and even will give you verbose feedback and can export to PDF or any other format you need. Take any problems with the app to writerduet who develop it and issues with the flatpak to the github repo.</p>
+      <p>**Note: This is a community package of WriterSolo and not officially supported by WriterDuet.**</p>
+      <p>This is the free version of WriterDuet without any collaboration features to it.</p>
+      <p>Excellent for working with fdx (final draft), fountain, and even will give you verbose feedback
+          and can export to PDF or any other format you need.</p>
+      <p>Take any problems with the app to writerduet who develop it and issues with the flatpak to the github repo.</p>
     </description>
     <screenshots>
-	<screenshot type="default">
-	    <image>https://raw.githubusercontent.com/flathub/com.writerduet.writersolo/master/com.writerduet.writersolo.png</image>
-	</screenshot>
+      <screenshot type="default">
+          <image>https://raw.githubusercontent.com/flathub/com.writerduet.writersolo/master/com.writerduet.writersolo.png</image>
+      </screenshot>
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
-	<release version="7.0.374" date="2023-12-17"/>
+      <release version="7.0.374" date="2023-12-17"/>
     </releases>
 </component>
 
