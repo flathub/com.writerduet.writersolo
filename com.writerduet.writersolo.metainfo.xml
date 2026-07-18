@@ -11,7 +11,6 @@
     <project_license>LicenseRef-proprietary</project_license>
     <url type="homepage">https://writersolo.com</url>
     <description>
-      <p>**Note: This is a community package of WriterSolo and not officially supported by WriterDuet.**</p>
       <p>This is the free version of WriterDuet without any collaboration features to it.</p>
       <p>Excellent for working with fdx (final draft), fountain, and even will give you verbose feedback
           and can export to PDF or any other format you need.</p>
